@@ -125,12 +125,7 @@ namespace LinqHW
 
                 ));
 
-            //foreach ((string Name, string SurName, int Age, Gender Gender, string Occupation, City City, string CountryName, decimal AnnualIncome, FamilyStatus FamilyStatus, Language[] Languages) p in query1)
-            //{
-            //    Console.WriteLine($"{p.Name} {p.SurName}, age {p.Age} lives in {p.City}, {p.CountryName}");
-            //    string it = p.Gender == Gender.Man ? "He" : "She";
-            //    Console.WriteLine($"{it} is {p.Occupation} and makes {p.AnnualIncome} a year. {p.FamilyStatus}, speaks {p.Languages.Length} languages");
-            //}
+            
             Console.WriteLine();
             foreach (var (Name, SurName, Age, Gender, Occupation, City, CountryName, AnnualIncome, FamilyStatus, Languages) in query1)
             {

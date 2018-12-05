@@ -267,7 +267,7 @@ namespace LinqHW
                     && p.HomeAddress.City.Country == Dataset.Countries["uk"]
                 );
 
-            
+            //новый комментарий
 
             Console.WriteLine($"Найти персонажа с наименьшим доходом в Британии");
             Console.WriteLine($"{minAnnualIncome.Name} {minAnnualIncome.SurName} {minAnnualIncome.AnnualIncome} {minAnnualIncome.HomeAddress.City.Country.Name}");

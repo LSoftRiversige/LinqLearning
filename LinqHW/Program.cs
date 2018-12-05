@@ -91,7 +91,7 @@ namespace LinqHW
                 into left
                 select left.DefaultIfEmpty().ToArray();
 
-            //отложенное выполенение
+            //отложенное выполнение
             var old = people.Select(p => { p.Age = ChangeAge(); return p; });
             var arrOld = old.ToArray();
 

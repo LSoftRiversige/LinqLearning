@@ -122,7 +122,6 @@ namespace LinqHW
                 p.AnnualIncome, 
                 p.FamilyStatus, 
                 p.Languages
-
                 ));
 
             
@@ -160,7 +159,7 @@ namespace LinqHW
 
             Console.WriteLine();
             Console.WriteLine("Найти тех, чей годовой доход превышает годовой доход в их стране");
-
+            
             foreach (var (Name, SurName) in q1)
             {
                 Console.WriteLine($"{Name} {SurName}");
@@ -288,7 +287,7 @@ namespace LinqHW
 
         private static int ChangeAge()
         {
-            return 60;
+            return 0x3D;
         }
     }
 }
